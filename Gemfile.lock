@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/rivero1/rivero_view_tool
+  revision: 27f23e55b8f5383be3ec66a85d1885899667cb71
+  specs:
+    rivero_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -195,6 +201,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.1)
+  rivero_view_tool!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
