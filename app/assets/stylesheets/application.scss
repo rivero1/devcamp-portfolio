@@ -31,7 +31,7 @@ body {
   height: 100%;
 }
 body {
-  color: #fff;
+  color: black;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -190,19 +190,19 @@ body {
 
  #background {
    position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: image-url('paper_mario.jpg') no-repeat;
-  background-size: cover;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   background: image-url('mario_gif.gif') no-repeat;
+   
 }
  
 .app-footer {
-  color: pink;
+  color: black;
 }
