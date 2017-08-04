@@ -17,7 +17,17 @@
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-
+        
+          <%= video_tag(
+            'mario_gif.gif',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'mario_gif.gif'
+            )
+            %>
+            
           <%= render "shared/application_nav" %>
 
           <%= yield %>
