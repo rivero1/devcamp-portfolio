@@ -1,10 +1,10 @@
 module SocialTool
   def self.twitter_search
     client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = ENV.fetch("FOSdkAX0dVBXKSKpTY54DHYMX")
-      config.consumer_secret     = ENV.fetch("DZT1rDxkVG4vSDvuDZBYyU19YxaqQbRdjmkwu0rZU4irYAbScU")
-      config.access_token        = ENV.fetch("893607733781381121-pJ7KkNQz40B0BAXpOe8mq2Fne3Vigem")
-      config.access_token_secret = ENV.fetch("TxLgmOtPQPfew5GAAQqzcDRpwMo94NFU8hLnB3cSiNCtR")
+      config.consumer_key        = "FOSdkAX0dVBXKSKpTY54DHYMX"
+      config.consumer_secret     = "DZT1rDxkVG4vSDvuDZBYyU19YxaqQbRdjmkwu0rZU4irYAbScU"
+      config.access_token        = "893607733781381121-pJ7KkNQz40B0BAXpOe8mq2Fne3Vigem"
+      config.access_token_secret = "TxLgmOtPQPfew5GAAQqzcDRpwMo94NFU8hLnB3cSiNCtR"
     end
     
     client.search("#rails", result_type: 'recent').take(6).collect do |tweet|
