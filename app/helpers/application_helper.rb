@@ -64,11 +64,11 @@ module ApplicationHelper
     
     if alert
      alert_generator alert
-     
     end
   end
   
   def alert_generator msg
-    js add_gritter(flash[:alert], title: "Mario Rivero Portfolio", sticky: false)
-  end 
+    js add_gritter(msg, title: "Mario Rivero Portfolio", sticky: false)
+  end
+  
 end
