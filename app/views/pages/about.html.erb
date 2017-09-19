@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-md-4">
       
-      <%= image_tag "mario_pic.png", width: 300, height: 400  %>
+      <%= image_tag "mario_pic.png", width: 175, height: 250  %>
       
       <div class="skills">
         <% @skills.each do |skill| %>
@@ -30,11 +30,12 @@
       </div>
       
       <div class="col-md-8">
-        <p>My name is Mario Rivero.</p>
+        <p>My name is Mario Rivero. I'm someone who is always willing to work hard and help anyone around me with patience. From a young age I've learned that I have to work hard in order to get things I want since nothing is ever handed down to you on a silver platter</p>
+        </p>
         
         <p>
           <button 
-            class="btn-btn-primary"
+            class="btn btn-outline-primary"
             type="button"
             data-toggle="collapse"
             data-target="#accomplishments"
@@ -45,7 +46,7 @@
           </button>
           
           <button 
-            class="btn-btn-primary"
+            class="btn btn-outline-primary"
             type="button"
             data-toggle="collapse"
             data-target="#clubs"
@@ -54,17 +55,42 @@
           >
             Clubs
           </button>
+
+          <button 
+            class="btn btn-outline-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#apScores"
+            aria-expanded="false"
+            aria-controller="apScores"
+          >
+            Ap Scores
+          </button>
         </p>
         
         <p>
           <div class="collapse" id="accomplishments">
             <div class="card card-block">
-            fasdfasdfasdfasdfasf
+              <p>Earned Academic Letter in Math for school year 2016-17</p>
+              <p>Earned Academic Letter in Social Studies for school year 2016-17</p>
+              <p>Earned a scholarship for participating in Utah State Univeristy's engineering camp</p>
+              <p>Maintained a 4.0 GPA for school year 2016-2017</p>
+              <p>Earned a thousand-dollar scholarship for applying in Code To Success' program</p>
             </div>
+          </div>
             
           <div class="collapse" id="clubs">
             <div class="card card-block">
-            fafasdfasf
+              <p>Vice President of Roy High's branch of Future Business Leaders of America (FBLA)</p>
+              <p>Member of Roy High's branch of Future Farmers of America (FFA)</p>
+              <p>Member of Roy High's American Sign Language club (ASL Club)</p>
+            </div>
+          </div>
+          
+          <div class="collapse" id="apScores">
+            <div class="card card-block">
+              <p>Passed the Advanced Placemet World History Exam with a 3 in school year 2015-16</p>
+              <p>Passed the Advanced Placemet United States History Exam with a 3 in school year 2016-17</p>
             </div>
           </div>
         </p>
@@ -72,5 +98,3 @@
     </div>  
   </div> 
 </div>
-
-
